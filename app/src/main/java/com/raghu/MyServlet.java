@@ -16,9 +16,7 @@ public class MyServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<p style="text-align:center"><span style="color:#2980b9"><strong><span style="font-size:26px">WELCOME TO GRADLE APPLICATION</span></strong></span></p>");
-        out.println("<p style="text-align:center"><span style="color:#e74c3c"><span style="font-size:20px"><strong>By Mr. RAGHU</strong></span></span></p>");
-        out.println("<p style="text-align:center"><span style="color:#ffffff"><span style="font-size:22px"><strong><span style="background-color:#f1c40f">(Developer and Trainer | Fullstack = Java + DevOps + AWS + ReactJS)</span></strong></span></span></p>");
+        out.println("<h1>WELCOME TO GRADLE </h1><h2> Mr. RAGHU </h2>");
         out.println("</body></html>");
     }
 }
