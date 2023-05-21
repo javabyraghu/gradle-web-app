@@ -16,7 +16,7 @@ public class MyServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<h1>WELCOME TO GRADLE </h1><h2> Mr. RAGHU </h2>");
+        out.println("<h1>WELCOME TO Raichur </h1><h2> sharan </h2>");
         out.println("</body></html>");
     }
 }
